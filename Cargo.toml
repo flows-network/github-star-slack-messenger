@@ -1,0 +1,14 @@
+[package]
+name = "github-star-slack-messenger"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/github-star-slack-messenger.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+github-flows = "0.2"
+slack-flows = "0.2.6"
+tokio_wasi = { version = "1.25.0", features = ["macros", "rt"] }
+anyhow = "1"

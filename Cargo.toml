@@ -8,7 +8,7 @@ path = "src/github-star-slack-messenger.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-github-flows = "0.2"
+github-flows = "0.4"
 slack-flows = "0.2.6"
 tokio_wasi = { version = "1.25.0", features = ["macros", "rt"] }
 anyhow = "1"

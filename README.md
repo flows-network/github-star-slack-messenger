@@ -14,7 +14,7 @@ To install this Github Star Slack Messenger, we use [flows.network](https://flow
 
 Fork [this repo](https://github.com/flows-network/github-star-slack-messenger) and enter the folder github-star-slack-messenger/src/github-star-slack-messenger.rs/. Replace the parameters in the red boxes below with your GitHub Repo owner and repo name, and then your Slack workspace and channel respectively.
 
-![](https://i.imgur.com/0OKeD5L.jpg)
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/45785633/227526953-210e366f-9599-4344-b213-d0ff4f185964.png">
 
 
 

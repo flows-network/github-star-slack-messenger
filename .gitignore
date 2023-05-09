@@ -4,3 +4,4 @@ Cargo.lock
 src/issues.comment.payload.json
 star.payload.json
 unknow.payload.json
+.env

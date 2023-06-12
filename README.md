@@ -26,7 +26,6 @@ Click on the **Create and Build** button.
 
 ### 2 Configure the bot to access your Slack
 
-After that, the flows.network will direct you to configure the SaaS integration required by your flow.
 
 Next, you will tell the bot which Slack channel you want your alert messages to be sent to.
 
@@ -50,6 +49,10 @@ Next, you will tell the bot which GitHub repo's star growth it needs to monitor 
 
 * `github_owner`: GitHub org for the repo *you want to deploy the 🤖 on*.
 * `github_repo` : GitHub repo *you want to deploy the 🤖 on*.
+
+Click on the **Connect** or **+ Add new authentication** button to give the function access to the GitHub repo to deploy the 🤖. You'll be redirected to a new page where you must grant [flows.network](https://flows.network/) permission to the repo.
+
+[<img width="450" alt="image" src="https://github.com/flows-network/github-pr-summary/assets/45785633/6cefff19-9eeb-4533-a20b-03c6a9c89473">](https://github.com/flows-network/github-pr-summary/assets/45785633/6cefff19-9eeb-4533-a20b-03c6a9c89473)
 
 
 > If you have authenticated the GitHub access before,you can see the purple Connect button turns gray Connected button. Just ingore this step and click Check button.

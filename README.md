@@ -20,8 +20,6 @@ You will need to sign into [flows.network](https://flows.network/) from your Git
 
 [**Just click here**](https://flows.network/flow/createByTemplate/ten-github-star-slack-messenger)
 
-Clone this [flows-network/github-star-slack-messenger](https://github.com/flows-network/github-star-slack-messenger/tree/main/) repo and Set a name for the repo you want to clone. 
-
 Click on the **Create and Build** button.
 
 ### 2 Configure the bot to access your Slack
@@ -35,17 +33,18 @@ Slack organization of the Slack channel where you want to deploy the bot. Case s
 * `slack_workspace`
 The Slack channel where you want to deploy the bot. Case sensitive.
 
- Replace the parameters in the red boxes below with your GitHub Repo owner and repo name, and then your Slack workspace and channel respectively.
-![image](https://github.com/flows-network/github-star-slack-messenger/assets/37167103/7ec3b6ce-c180-4fec-8546-2dddfb9f3d85)
+Enter your Slack workspace and channel respectively in the red boxes below.
+![image](https://github.com/flows-network/github-star-slack-messenger/assets/45785633/0d9ac244-f327-4366-972c-47ef05472057)
 
-Next, let's grant flows.network to access the Slack channel you just entered.
+
+Next, let's grant flows.network to access the Slack channel you just entered. The Slack channel must be public.
 
 Click the "Connect/+ Add new authentication" button to authenticate your Slack account. You'll be redirected to a new page where you must grant [flows.network](https://flows.network/) permission to install the `flows-network` bot on your workspace. This workspace is the one you entered into the `slack_workspace` above.
 
 
 ### 3 Configure the bot to access GitHub
 
-Next, you will tell the bot which GitHub repo's star growth it needs to monitor .
+Next, you will tell the bot which GitHub repo's star growth it needs to monitor.
 
 * `github_owner`: GitHub org for the repo *you want to deploy the 🤖 on*.
 * `github_repo` : GitHub repo *you want to deploy the 🤖 on*.
@@ -55,7 +54,7 @@ Click on the **Connect** or **+ Add new authentication** button to give the func
 [<img width="450" alt="image" src="https://github.com/flows-network/github-pr-summary/assets/45785633/6cefff19-9eeb-4533-a20b-03c6a9c89473">](https://github.com/flows-network/github-pr-summary/assets/45785633/6cefff19-9eeb-4533-a20b-03c6a9c89473)
 
 
-> If you have authenticated the GitHub access before,you can see the purple Connect button turns gray Connected button. Just ingore this step and click Check button.
+> If you have authenticated the GitHub access before,you can see the purple Connect button turns gray Connected button. Just ignore this step and click Check button.
 ![image](https://github.com/flows-network/github-star-slack-messenger/assets/37167103/64bc8924-b47f-4c1c-b152-05b181f2cdea)
 
 ### 4. Click the Deploy button to deploy your function.
